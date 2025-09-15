@@ -1,0 +1,73 @@
+body{
+    margin: 0%;
+}
+.boarder{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(251, 246, 218);
+}
+#yum{
+    width: 100px;
+    height: 70px;
+    padding-left:0px;
+}
+#icn{
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding-right:60px ;
+    padding-top: 30px;
+}
+#choco{
+    color: rgb(97, 54, 24);
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-top: 90px;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cards{
+    width: 20%;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color:  rgb(251, 246, 218) ;
+    position: relative;
+    transition-duration: 5s;
+}
+.cards:hover{
+    transform: rotateY(360deg);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+h2{
+    color:rgb(125, 80, 48);
+}
+h3{
+    color:rgb(62, 33, 13) ;
+}
+p{
+    font-size: 10px;
+}
+.footer{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+#cp{
+    text-decoration: none;
+    color: rgb(95, 80, 75);
+}
+
